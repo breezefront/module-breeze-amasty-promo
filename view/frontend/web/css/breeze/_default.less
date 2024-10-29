@@ -1,0 +1,9 @@
+& when (@critical) {
+    .body .ampromo-overlay {
+        display: none;
+    }
+}
+
+& when not (@critical) {
+    @import "Amasty_Promo::css/source/_module.less";
+}
