@@ -7,9 +7,11 @@
                 <argument name="bundles" xsi:type="array">
                     <item name="dynamic" xsi:type="array">
                         <item name="items" xsi:type="array">
+                            <!--
                             <item name="Amasty_Base/vendor/slick/slick.min" xsi:type="array">
                                 <item name="path" xsi:type="string">Amasty_Base/vendor/slick/slick.min</item>
                             </item>
+                            -->
                             <item name="Amasty_Promo/js/discount-calculator" xsi:type="array">
                                 <item name="path" xsi:type="string">Amasty_Promo/js/discount-calculator</item>
                             </item>
@@ -17,7 +19,7 @@
                                 <item name="path" xsi:type="string">Amasty_Promo/js/popup</item>
                                 <item name="import" xsi:type="array">
                                     <item name="3" xsi:type="string">Amasty_Promo/js/discount-calculator</item>
-                                    <item name="5" xsi:type="string">Amasty_Base/vendor/slick/slick.min</item>
+                                    <!-- <item name="5" xsi:type="string">Amasty_Base/vendor/slick/slick.min</item> -->
                                 </item>
                             </item>
                         </item>
