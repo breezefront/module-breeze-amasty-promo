@@ -22,6 +22,9 @@
                                     <!-- <item name="5" xsi:type="string">Amasty_Base/vendor/slick/slick.min</item> -->
                                 </item>
                             </item>
+                            <item name="Amasty_Promo/js/price-updater" xsi:type="array">
+                                <item name="path" xsi:type="string">Amasty_Promo/js/price-updater</item>
+                            </item>
                         </item>
                     </item>
                 </argument>
