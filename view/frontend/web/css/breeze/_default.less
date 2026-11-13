@@ -9,5 +9,31 @@
 }
 
 & when not (@critical) {
+    .lib-button-as-link(@_margin: 0) {
+        .breeze-link();
+        background: none;
+        border: 0;
+        box-shadow: none;
+        font: inherit;
+        line-height: inherit;
+        margin: @_margin;
+        padding: 0;
+        text-decoration: @link__text-decoration !important;
+
+        @media @media-hover {
+            &:hover {
+                text-decoration: @link__hover__text-decoration !important;
+            }
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            background: none;
+            border: 0;
+            box-shadow: none;
+        }
+    }
+
     @import "Amasty_Promo::css/source/_module.less";
 }
